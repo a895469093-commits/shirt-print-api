@@ -21,4 +21,6 @@ RUN mkdir -p /app/outputs /data/u2net
 # Pre-download u2net model during build so first request is fast
 RUN python -c "from rembg import remove; from PIL import Image; remove(Image.new('RGBA',(4,4),(255,0,0,255)))"
 
-CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-7861}"]
+EXPOSE 7860
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]

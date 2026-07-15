@@ -1,3 +1,13 @@
+---
+title: Shirt Print API
+emoji: 👕
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Shirt Print API
 
 Local free tool for creating garment print templates and compositing design images onto garments.
