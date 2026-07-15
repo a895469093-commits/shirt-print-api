@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.pid
+outputs/
+model-cache/
+portable/python/
+portable/cloudflared.exe
+portable/u2net.onnx
+portable/model-cache/
+portable/api-startup.*
+portable/cloudflared-run.*
+portable/debug.log
+*.zip
+.DS_Store
+node_modules/

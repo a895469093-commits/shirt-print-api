@@ -1,0 +1,13 @@
+services:
+  shirt-print-api:
+    build: .
+    container_name: shirt-print-api
+    restart: unless-stopped
+    ports:
+      - "7861:7861"
+    environment:
+      U2NET_HOME: /data/u2net
+    volumes:
+      - ./templates:/app/templates
+      - ./outputs:/app/outputs
+      - ./model-cache:/data/u2net

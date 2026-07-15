@@ -1,0 +1,16 @@
+{
+  "name": "new_template",
+  "garment": "/template-files/new_template/garment.png",
+  "mask": "/template-files/new_template/mask.png",
+  "print_area": {
+    "x": 619.0,
+    "y": 527.0,
+    "width": 805.0,
+    "height": 752.0
+  },
+  "rotation": 0.0,
+  "opacity": 0.92,
+  "texture_strength": 1.0,
+  "edge_feather": 2.0,
+  "has_mask": true
+}
